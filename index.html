@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu te amo ❤️</title>
+    <link rel="icon" href="logo_love.webp" type="image/webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tela de Login Falsa -->
+    <div id="login-screen">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" placeholder="Usuário" required><br>
+                <input type="password" placeholder="Senha" required><br>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Conteúdo do site -->
+    <div id="content" style="display: none;">
+        <h2 class="title">Nosso tempo ❤️</h2>
+        <h1>Juntos há:</h1>
+        <div id="timer">Carregando...</div>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="fotos/foto1.jpeg" class="active" alt="Foto 1">
+                <img src="fotos/foto2.jpeg" alt="Foto 2">
+                <img src="fotos/foto3.jpeg" alt="Foto 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
